@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Are you tired of always looking at the same boring souvenir T-shirts that people buy and never wear them again? Well so were we! ',
   paragraphTwo:
-    'That is why we at 8SQUARE set out to design and create modern and trendy souvenir T-shirts under the brand name Eurotees™.',
+    'That is why we at <strong>8SQUARE</strong> set out to design and create modern and trendy souvenir T-shirts under the brand name Eurotees™.',
   paragraphThree:
     'With the goal of satisfying modern tourists while also having in mind the importance of retailers, we designed a product that is attractive to both, due to our constantly updated designs and easy handling, thanks to convenient and recyclable packaging.',
   resume: '', // if no resume, the button will not show up
@@ -46,7 +46,7 @@ export const projectsData = [
     info: '1488',
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
-    url: 'hello@eightsquare.eu',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     info: '499',
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
-    url: 'hello@eightsquare.eu',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -66,7 +66,7 @@ export const projectsData = [
     info: '2040',
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
-    url: 'hello@eightsquare.eu',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -83,23 +83,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/eightsquare',
     },
   ],
 };
