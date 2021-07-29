@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'EURO',
   name: 'TEES',
-  subtitle: 'the apparel for you',
+  subtitle: 'apparel for you',
   cta: 'about our apparel',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Are you tired of always looking at the same boring souvenir T-shirts that people buy and never wear them again? Well so were we! ',
   paragraphTwo:
-    'That is why we at <strong>8SQUARE</strong> set out to design and create modern and trendy souvenir T-shirts under the brand name Eurotees™.',
+    'That is why we at 8SQUARE set out to design and create modern and trendy souvenir T-shirts under the brand name Eurotees™.',
   paragraphThree:
     'With the goal of satisfying modern tourists while also having in mind the importance of retailers, we designed a product that is attractive to both, due to our constantly updated designs and easy handling, thanks to convenient and recyclable packaging.',
   resume: '', // if no resume, the button will not show up
@@ -70,6 +70,17 @@ export const projectsData = [
     repo: '', // if no repo, the button will not show up
   },
 ];
+
+// Second text
+
+export const ourStoryData = {
+  text1:
+    'The 8SQUARE story began with three friends, Tim, Mitja and Mariya, who were disappointed by the quality of souvenir T-shirts on offer all across Europe. Believing there should be no reason why souvenir T-shirts could not also be attractive and trendy, we joined forces with top designers and the brand Eurotees™ was born.',
+  text2:
+    'Today we are proud to say that with our clear vision, an ear for the customer’s needs and well-thought- out product, we are one of the top players in Slovenia, Croatia and Austria when it comes to souvenir T- shirts. We design, produce and market T-shirts for tourists wishing to take home a fashionable souvenir. The collections of trendy T-shirts under the brand name Eurotees™ are designed by top designers assuring that the T-shirts are always in-line with current fashion trends. ',
+  text3:
+    'Today we are proud to say that with our clear vision, an ear for the customer’s needs and well-thought- out product, we are one of the top players in Slovenia, Croatia and Austria when it comes to souvenir T- shirts. We design, produce and market T-shirts for tourists wishing to take home a fashionable souvenir. The collections of trendy T-shirts under the brand name Eurotees™ are designed by top designers assuring that the T-shirts are always in-line with current fashion trends.',
+};
 
 // CONTACT DATA
 export const contactData = {
