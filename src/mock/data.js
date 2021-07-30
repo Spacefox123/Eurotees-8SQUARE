@@ -36,7 +36,8 @@ export const projectsData = [
     info: '2040',
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
-    url: 'hello@eightsquare.eu',
+    url: '',
+    email: 'hello@eightsquare.eu',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -47,6 +48,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
+    email: 'hello@eightsquare.eu',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -57,6 +59,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
+    email: 'hello@eightsquare.eu',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -67,6 +70,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
+    email: 'hello@eightsquare.eu',
     repo: '', // if no repo, the button will not show up
   },
 ];

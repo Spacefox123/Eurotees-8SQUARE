@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, email } = project;
 
             return (
               <Row key={id}>
@@ -53,7 +53,9 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={
+                          email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'
+                        }
                       >
                         Contact us
                       </a>
