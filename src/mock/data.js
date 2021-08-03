@@ -108,3 +108,8 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
+
+export const mapData = {
+  mapUrl:
+    'https://www.google.com/maps/d/u/0/edit?mid=1RQFcTwpGgWNV88ZcfVg-Xd0yKVZxKCfc&usp=sharing',
+};
