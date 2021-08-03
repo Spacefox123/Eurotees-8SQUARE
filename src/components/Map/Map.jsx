@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 import PortfolioContext from '../../context/context';
 
@@ -21,15 +22,17 @@ const Map = () => {
   }, []);
 
   return (
-    <>
-      <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-        <Title title="Where can you find us?" />
-      </Fade>
+    <section id="map">
+      <Container>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+          <Title title="Where can you find us?" />
+        </Fade>
 
-      <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-        <iframe title="locations" src={mapUrl} width="100%" height="500" />
-      </Fade>
-    </>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+          <iframe title="locations" src={mapUrl} width="100%" height="500" />
+        </Fade>
+      </Container>
+    </section>
   );
 };
 

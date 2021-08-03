@@ -12,7 +12,11 @@ export const heroData = {
   title: 'EURO',
   name: 'TEES',
   subtitle: 'apparel for you',
-  cta: 'about our apparel',
+  btn1: 'About our apparel',
+  btn2: 'Our products',
+  btn3: 'Our story',
+  btn4: 'Where to find us',
+  btn5: 'Contact us',
 };
 
 // ABOUT DATA
