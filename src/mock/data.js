@@ -115,5 +115,5 @@ export const githubButtons = {
 
 export const mapData = {
   mapUrl:
-    'https://www.google.com/maps/d/u/0/edit?mid=1RQFcTwpGgWNV88ZcfVg-Xd0yKVZxKCfc&usp=sharing',
+    '//umap.openstreetmap.fr/en/map/eurotees-8square-locations_643602?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=null&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false',
 };

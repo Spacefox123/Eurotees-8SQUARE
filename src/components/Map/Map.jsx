@@ -24,12 +24,19 @@ const Map = () => {
   return (
     <section id="map">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <Title title="Where can you find us?" />
         </Fade>
 
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <iframe title="locations" src={mapUrl} width="100%" height="500" />
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
+          <iframe
+            title="locations"
+            width="100%"
+            height="500px"
+            frameBorder="0"
+            allowFullScreen
+            src={mapUrl}
+          />
         </Fade>
       </Container>
     </section>
