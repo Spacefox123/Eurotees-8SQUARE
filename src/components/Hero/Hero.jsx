@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, btn1, btn2, btn3, btn4, btn5 } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -32,11 +32,36 @@ const Header = () => {
             {subtitle || "I'm the Unknown Developer."}
           </h1>
         </Fade>
+
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <p className="hero-cta">
+          <p className="hero-cta navbar">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {btn1 || 'Know more'}
+              </Link>
+            </span>
+
+            <span className="cta-btn cta-btn--hero">
+              <Link to="projects" smooth duration={1000}>
+                {btn2 || 'Know more'}
+              </Link>
+            </span>
+
+            <span className="cta-btn cta-btn--hero">
+              <Link to="second" smooth duration={1000}>
+                {btn3 || 'Know more'}
+              </Link>
+            </span>
+
+            <span className="cta-btn cta-btn--hero">
+              <Link to="map" smooth duration={1000}>
+                {btn4 || 'Know more'}
+              </Link>
+            </span>
+
+            <span className="cta-btn cta-btn--hero">
+              <Link to="contact" smooth duration={1000}>
+                {btn5 || 'Know more'}
               </Link>
             </span>
           </p>

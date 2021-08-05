@@ -12,7 +12,11 @@ export const heroData = {
   title: 'EURO',
   name: 'TEES',
   subtitle: 'apparel for you',
-  cta: 'about our apparel',
+  btn1: 'About our apparel',
+  btn2: 'Our products',
+  btn3: 'Our story',
+  btn4: 'Where to find us',
+  btn5: 'Contact us',
 };
 
 // ABOUT DATA
@@ -78,6 +82,7 @@ export const projectsData = [
 // Second text
 
 export const ourStoryData = {
+  img2: 'ourstory1.jpg',
   text1:
     'The 8SQUARE story began with three friends, Tim, Mitja and Mariya, who were disappointed by the quality of souvenir T-shirts on offer all across Europe. Believing there should be no reason why souvenir T-shirts could not also be attractive and trendy, we joined forces with top designers and the brand Eurotees™ was born.',
   text2:
@@ -89,6 +94,8 @@ export const ourStoryData = {
 // CONTACT DATA
 export const contactData = {
   cta: '+386 40 668 650',
+  goodbyetxt:
+    'We are always looking for new sales outlets. If you would like to include Eurotees™ into your business please, don’t hesitate to contact us. Our team will work closely with you, to create a selection that perfectly fits your needs and desires. ',
   btn: 'hello@eightsquare.eu',
   email: 'hello@eightsquare.eu',
 };
@@ -101,10 +108,20 @@ export const footerData = {
       name: 'facebook',
       url: 'https://www.facebook.com/eightsquare',
     },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/euro.tees/',
+    },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+};
+
+export const mapData = {
+  mapUrl:
+    '//umap.openstreetmap.fr/en/map/eurotees-8square-locations_643602?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=null&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false',
 };
