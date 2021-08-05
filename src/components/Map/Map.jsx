@@ -24,20 +24,23 @@ const Map = () => {
   return (
     <section id="map">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <Title title="Where can you find us?" />
-        </Fade>
-
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
-          <iframe
-            title="locations"
-            width="100%"
-            height="500px"
-            frameBorder="0"
-            allowFullScreen
-            src={mapUrl}
-          />
-        </Fade>
+        <div className="map-wrapper">
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+            <Title title="Where can you find us?" />
+          </Fade>
+          <div className="map-wrapper__image">
+            <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
+              <iframe
+                title="locations"
+                width="100%"
+                height="500px"
+                frameBorder="0"
+                allowFullScreen
+                src={mapUrl}
+              />
+            </Fade>
+          </div>
+        </div>
       </Container>
     </section>
   );
