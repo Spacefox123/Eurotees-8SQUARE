@@ -21,7 +21,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile2.jpg',
+  img: 'ourstory1.jpg',
   paragraphOne:
     'Are you tired of always looking at the same boring souvenir T-shirts that people buy and never wear them again? Well so were we! ',
   paragraphTwo:
@@ -82,7 +82,7 @@ export const projectsData = [
 // Second text
 
 export const ourStoryData = {
-  img2: 'ourstory1.jpg',
+  img2: 'profile2.jpg',
   text1:
     'The 8SQUARE story began with three friends, Tim, Mitja and Mariya, who were disappointed by the quality of souvenir T-shirts on offer all across Europe. Believing there should be no reason why souvenir T-shirts could not also be attractive and trendy, we joined forces with top designers and the brand Eurotees™ was born.',
   text2:
