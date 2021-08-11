@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  // background: $white-color;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -14,11 +14,14 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // The last for background arguments create a paralax effect when scrolling
 
   background: url("../../src/images/mt1-2.jpg");
+  // background-position: center;
+  // background-size: cover;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 
   @include respond(phone) {
@@ -48,7 +51,20 @@
   }
 
   .hero-cta {
+    padding-top: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba(58, 63, 126, 0.37);
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    width: 100%;
+    z-index: 100;
 
     @include respond(tab-port) {
       justify-content: center;
@@ -62,4 +78,6 @@
       }
     }
   }
+
+  
 }

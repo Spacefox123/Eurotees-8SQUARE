@@ -24,15 +24,6 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={100} distance="30px">
-          <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
-            <br />
-            {subtitle || "I'm the Unknown Developer."}
-          </h1>
-        </Fade>
-
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <p className="hero-cta navbar">
             <span className="cta-btn cta-btn--hero">
@@ -65,6 +56,15 @@ const Header = () => {
               </Link>
             </span>
           </p>
+        </Fade>
+
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={100} distance="30px">
+          <h1 className="hero-title">
+            {title || 'Hi, my name is'}{' '}
+            <span className="text-color-main">{name || 'Your Name'}</span>
+            <br />
+            {subtitle || "I'm the Unknown Developer."}
+          </h1>
         </Fade>
       </Container>
     </section>
