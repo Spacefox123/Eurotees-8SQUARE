@@ -27,7 +27,7 @@
   // background-clip: text;
   // -webkit-background-clip: text;
   -webkit-text-fill-color: $light-blue-text;
-  border-bottom: solid 2px $light-blue-text;
+  // border-bottom: solid 2px $light-blue-text;
   // border-width: 2px;
   // border-style: solid;
   // border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
@@ -36,11 +36,9 @@
   cursor: pointer;
   
   // Responsive Button hero style
-  @include respond(phone) {
+  @include respond(tab-port) {
     background-image: none;
-    // border: 2px solid $secondary-color;
-    border-bottom: solid 2px $light-blue-text;
-    // -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $secondary-color;
   }
 
   &::after {
@@ -67,15 +65,23 @@
 
 /*Project button style*/
 .cta-btn--project {
-  color: $primary-color;
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: $light-blue-text;
   border: 2px solid $white-color;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-image-slice: 1;
 
   &::after {
-    background: $white-color;
+    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    width: 0;
   }
 
   &:hover {
-    color: $secondary-color;
+    -webkit-text-fill-color: $dark-blue-text;
     text-decoration: none;
 
     &::after {

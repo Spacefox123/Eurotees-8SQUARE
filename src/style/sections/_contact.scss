@@ -31,7 +31,7 @@
         line-height: 1.6;
   
         @include respond(phone) {
-          display: inline;
+          // display: inline;
           margin: 0;
           padding: 0;
           background: transparent;
