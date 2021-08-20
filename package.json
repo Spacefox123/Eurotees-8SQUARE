@@ -1,5 +1,6 @@
 {
   "name": "gatsby-starter-hello-world",
+  "homepage": "http://eightsquare.eu/",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
