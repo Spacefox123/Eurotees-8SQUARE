@@ -5,7 +5,7 @@ import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-export default () => {
+const head_data1 = () => {
   const { title, lang, description } = headData;
 
   return (
@@ -20,3 +20,5 @@ export default () => {
     </>
   );
 };
+
+export default head_data1;
