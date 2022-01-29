@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "homepage": "http://eightsquare.eu/",
+  "name": "Eurotees by Eight",
+  "homepage": "https://www.eurotees.eu/",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "We sell souvenir tees for you!",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

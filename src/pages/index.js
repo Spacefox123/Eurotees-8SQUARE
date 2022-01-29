@@ -12,9 +12,9 @@ const head_data1 = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || '8SQUARE | Eurotees™'}</title>
+        <title>{title || 'Eurotees™ by Eight'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || '8SQUARE | Eurotees™'} />
+        <meta name="description" content={description || 'Eurotees™ by Eight'} />
       </Helmet>
       <App />
     </>
