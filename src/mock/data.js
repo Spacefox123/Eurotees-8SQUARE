@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'EIGHT | Eurotees™', // e.g: 'Name | Developer'
+  title: 'Eurotees™ by Eight', // e.g: 'Name | Developer'
   lang: 'si', // e.g: en, es, fr, jp
   description: 'The official Eurotees™ website', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'EURO',
   name: 'TEES',
-  subtitle: 'apparel for you',
+  subtitle: 'tees for you',
   btn1: 'About our apparel',
   btn2: 'Our products',
   btn3: 'Our story',
@@ -41,7 +41,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
-    email: 'hello@eightsquare.eu',
+    email: 'hello@eight.si',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -52,7 +52,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
-    email: 'hello@eightsquare.eu',
+    email: 'hello@eight.si',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -63,7 +63,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
-    email: 'hello@eightsquare.eu',
+    email: 'hello@eight.si',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -74,7 +74,7 @@ export const projectsData = [
     info2:
       'High quality 100% natural cotton, 190g/m² A perfect, already wrapped gift, souvenir The textile bag protects T-shirts from damage and dirt The packaging allows for easy placement of T-shirts on retail stands ',
     url: '',
-    email: 'hello@eightsquare.eu',
+    email: 'hello@eight.si',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -84,7 +84,7 @@ export const projectsData = [
 export const ourStoryData = {
   img2: 'ourStory.jpg',
   text1:
-    'The EIGHT story began with three friends, Tim, Mitja and Mariya, who were disappointed by the quality of souvenir T-shirts on offer all across Europe. Believing there should be no reason why souvenir T-shirts could not also be attractive and trendy, we joined forces with top designers and the brand Eurotees™ was born.',
+    'The EIGHT story began with two friends, Tim and Mitja, who were disappointed by the quality of souvenir T-shirts on offer all across Europe. Believing there should be no reason why souvenir T-shirts could not also be attractive and trendy, we joined forces with top designers and the brand Eurotees™ was born.',
   text2:
     'Today we are proud to say that with our clear vision, an ear for the customer’s needs and well-thought- out product, we are one of the top players in Slovenia, Croatia and Austria when it comes to souvenir T- shirts. We design, produce and market T-shirts for tourists wishing to take home a fashionable souvenir. The collections of trendy T-shirts under the brand name Eurotees™ are designed by top designers assuring that the T-shirts are always in-line with current fashion trends. ',
   text3:
@@ -93,10 +93,10 @@ export const ourStoryData = {
 
 // CONTACT DATA
 export const contactData = {
-  cta: '+386 40 668 650',
+  cta: '',
   goodbyetxt:
     'We are always looking for new sales outlets. If you would like to include Eurotees™ into your business please, don’t hesitate to contact us. Our team will work closely with you, to create a selection that perfectly fits your needs and desires. ',
-  btn: 'hello@eightsquare.eu',
+  btn: 'hello@eight.si',
   email: 'hello@eightsquare.eu',
 };
 
