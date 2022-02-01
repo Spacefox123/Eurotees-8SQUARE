@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Eurotees™ by Eight', // e.g: 'Name | Developer'
   lang: 'si', // e.g: en, es, fr, jp
-  description: 'The official Eurotees™ website', // e.g: Welcome to my website
+  description: 'The official Eurotees™ by Eight website', // e.g: Welcome to my website
 };
 
 // HERO DATA

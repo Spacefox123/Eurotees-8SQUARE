@@ -1,24 +1,21 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import App from '../components/App';
-import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-const head_data1 = () => {
-  const { title, lang, description } = headData;
+// eslint-disable-next-line camelcase
+const head_data1 = () => (
+  <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Eurotees™ by Eight</title>
+      <html lang="en" />
+      <meta name="description" content="Eurotees™ by Eight" />
+    </Helmet>
+    <App />
+  </>
+);
 
-  return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Eurotees™ by Eight'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Eurotees™ by Eight'} />
-      </Helmet>
-      <App />
-    </>
-  );
-};
-
+// eslint-disable-next-line camelcase
 export default head_data1;
